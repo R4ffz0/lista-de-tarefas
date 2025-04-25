@@ -1,4 +1,4 @@
-# Projeto To-Do List Web
+# Projeto Lista de tarefas
 
 Este é um projeto de lista de tarefas com tela de login, desenvolvido usando HTML semântico, CSS (com display flex), JavaScript puro e responsividade mobile-first.
 
