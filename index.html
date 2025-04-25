@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Lista de tarefas</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="container__geral">
+  <div class="login-container">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <label for="email">Seu e-mail</label>
+      <input type="email" id="email" aria-label="E-mail" required placeholder="fulano.exemplo@gmail.com">
+
+      <label for="nome">Seu nome</label>
+      <input type="text" id="nome" aria-label="Nome" required placeholder="Seu nome completo">
+
+      <div class="checkbox">
+        <input type="checkbox" id="manter" aria-label="Manter-me logado">
+        <label for="manter">Manter-me logado</label>
+      </div>
+
+      <button type="submit">Logar</button>
+    </form>
+    
+
+  <script src="js/login.js"></script>
+</body>
+</html>

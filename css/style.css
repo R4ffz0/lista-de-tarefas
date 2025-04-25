@@ -1,0 +1,101 @@
+:root{
+  --cor-de-fundo:#f2f2f2;
+  --cor-principal:#0097a7;
+  --botao-hover:#00838f;
+  --cor-lista:#e0f7fa;
+}
+
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container__geral {
+  background-color: var(--cor-de-fundo);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container, .tarefa__container {
+  background-color: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 5px;
+  padding: 30px;
+  width: 300px;
+  box-shadow: 0 0 10px #ccc;
+  text-align: center;
+}
+
+.login-container h2,
+.tarefa__container h2 {
+  color: var(--cor-principal);
+  margin-bottom: 20px;
+}
+.icone__botao_voltar{
+  text-decoration: none;
+  display: flex;
+  font-size: 36px;
+  align-items:start;
+  color:var(--cor-principal)
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #b0bec5;
+  border-radius: 4px;
+}
+
+button {
+  background-color: var(--cor-principal);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--botao-hover);
+}
+
+
+.checkbox{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  background-color: var(--cor-lista);
+  padding: 8px;
+  border-radius: 4px;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: gray;
+}
